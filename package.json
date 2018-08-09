@@ -1,0 +1,29 @@
+{
+  "name": "express-website",
+  "version": "1.0.0",
+  "description": "Express Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThabisoDDX/express-website.git"
+  },
+  "author": "Thabiso Mohatlane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThabisoDDX/express-website/issues"
+  },
+  "homepage": "https://github.com/ThabisoDDX/express-website#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.18.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
